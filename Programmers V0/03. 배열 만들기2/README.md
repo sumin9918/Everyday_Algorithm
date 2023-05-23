@@ -1,4 +1,4 @@
-# [Level 0] 02. 코드 처리하기
+# [Level 0] 03. 배열 만들기2
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181921)
 
