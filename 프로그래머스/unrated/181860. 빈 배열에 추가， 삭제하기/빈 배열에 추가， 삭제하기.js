@@ -1,3 +1,3 @@
 function solution(arr, flag) {
-    return flag.reduce((acc, f, i) => f ? [...acc, ...new Array(arr[i] * 2).fill(arr[i])] : acc.slice(0, acc.length - arr[i]), []);
+    return arr.reduce((acc, n, i) => flag[i] ? [...acc, ...new Array(n * 2).fill(n)] : acc.slice(0, -n), []);
 }
